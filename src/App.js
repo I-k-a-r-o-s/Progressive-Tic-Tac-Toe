@@ -13,8 +13,9 @@ export default function App() {
       <h1 className="page-header">Progressive Tic Tac Toe</h1>
       {/* Description of the game rules */}
       <p className="page-description">
-        A simple Tic Tac Toe game where players can only place a mark in an empty square. 
-        If a player has already placed 3 marks, the oldest one is removed and that square is blocked for one turn.
+        A simple Two player Tic Tac Toe game with a little twist.
+        If a player has already placed 3 marks, the oldest one is removed and that square 
+        is blocked for one turn. Think before placing your mark!
       </p>
       {/* The game board */}
       <Board />
