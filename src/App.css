@@ -233,3 +233,9 @@ body.dark-mode .reset-btn:hover {
   font-size: 0.95rem;
   letter-spacing: 1px;
 }
+
+/* Styling for dark mode status message */
+body.dark-mode .status {
+  color: #ffe082;
+  text-shadow: 0 2px 8px #232526;
+}
