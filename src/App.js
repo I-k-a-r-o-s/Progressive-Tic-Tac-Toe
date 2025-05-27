@@ -18,10 +18,10 @@ export default function App() {
       </p>
       {/* The game board */}
       <Board />
-      {/* Footer with copyright and GitHub link */}
-      {/*<div className="footer">
-        &copy; {new Date().getFullYear()} Progressive Tic Tac Toe &mdash; <a href="https://github.com/" style={{color:'#1976d2'}}>GitHub</a>
-      </div>*/}
+      {/* Footer with GitHub link */}
+      <div className="footer">
+        &copy; {new Date().getFullYear()} Progressive Tic Tac Toe &mdash; <a href="https://github.com/I-k-a-r-o-s/Progressive-Tic-Tac-Toe.git" style={{color:'#1976d2'}}>GitHub</a>
+      </div>
     </div>
   );
 }
