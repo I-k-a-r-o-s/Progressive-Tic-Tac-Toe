@@ -1,7 +1,7 @@
 # Progressive Tic Tac Toe
 
 A modern, interactive Tic Tac Toe game built with React.  
-This version features a **progressive rule**:  
+This version features a **progressive rule** for competitiveness:  
 - Each player can only have 3 marks on the board at any time.
 - When a player makes a new move after already having 3 marks, their oldest mark is removed and that square is blocked for one turn.
 
