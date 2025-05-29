@@ -13,9 +13,9 @@ export default function App() {
       <h1 className="page-header">Progressive Tic Tac Toe</h1>
       {/* Description of the game rules */}
       <p className="page-description">
-        A simple Two player Tic Tac Toe game with a little twist!</br>
-        <strong>Game Rules:</strong>
-        <ul style={{ textAlign: "left", maxWidth: 400, margin: "16px auto" }}>
+        A simple Two player Tic Tac Toe game with a little twist.<br />
+        <strong>Game Rules</strong>
+        <ul style={{ textAlign: "left", maxWidth: 400, margin: "10px auto" }}>
           <li>Players take turns placing their mark (X or O) on the board.</li>
           <li>If a player already has 3 marks, their oldest mark is removed before placing a new one.</li>
           <li>The square that is cleared cannot be used again until after one more move.</li>
